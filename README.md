@@ -1,108 +1,40 @@
 # Task 1: ADR Identification Basics
-## Case: Vancomycin-Induced Systemic Flaring (Drug Reaction with Eosinophilia and Systemic Symptoms — DRESS)
+## Case Analysis: Vancomycin-Induced Systemic Flaring
 
-**Source:** Symes FLI, Bakthavatsalam K. *Vancomycin-Induced DRESS Syndrome with Nephritis, Pneumonitis, and Colitis in an HLA-A\*32:01-Positive Patient: A Case Report.* Archives of Medical Case Reports. 2026;8(1):5–10. (Open access, CC-BY)
+The case I used is titled Vancomycin Induced DRESS Syndrome with Nephritis, Pneumonitis and Colitis in an HLA A 32:01 Positive Patient, published by Symes and Bakthavatsalam in the Archives of Medical Case Reports in 2026. My analysis below is based fully on this published case.
 
----
+## Case Details
 
-## 1. Case Details
+The patient in this case was a woman in her sixties who had a history of recurrent cellulitis in her lower limb, chronic venous ulcers, seasonal asthma and sinusitis. She was also known to be allergic to penicillin, having previously had an anaphylactic reaction to it. She was admitted to hospital with two days of pain and swelling in her right leg. On examination she had cellulitis and an infected ulcer in that leg, along with a swollen and irritable right ankle that raised concern for septic arthritis. A swab from her wound grew MRSA and a sample from her ankle joint later grew Group C Streptococcus, so she was started on intravenous vancomycin for a planned four week course.
 
-- **Patient:** Woman in her 60s
-- **Past medical history:** Recurrent lower-limb cellulitis, chronic venous ulcers, seasonal asthma, sinusitis
-- **Known drug allergy:** Penicillin (previous anaphylaxis)
-- **Presenting complaint:** 2-day history of right lower-limb pain and swelling
-- **Diagnosis on admission:** Cellulitis of the right lower limb with an infected venous ulcer, plus suspected septic arthritis of the right ankle. Wound swab grew MRSA; ankle aspirate later grew Group C Streptococcus.
+## Symptoms
 
-## 2. Symptoms (of the Reaction)
+About four weeks into her vancomycin treatment, she developed a widespread itchy rash that started on her leg and eventually spread over her entire body. She also developed a fever. Along with this she started having diarrhoea and continued to feel short of breath. When doctors investigated further, her blood tests showed a rising eosinophil count and rising creatinine, along with some blood and protein in her urine. Her liver function tests stayed completely normal throughout, which is unusual since the liver is usually the organ most affected in this type of reaction. A CT scan of her chest showed changes suggesting inflammation in her lungs, and a skin biopsy showed changes consistent with a drug reaction. She was also tested for a genetic marker called HLA A 32:01, and this came back positive, a marker known to be linked specifically with vancomycin reactions.
 
-- Widespread pruritic (itchy) morbilliform rash — began on the right lower limb and progressed to involve the entire body
-- Fever
-- Diarrhea (new onset), with elevated faecal calprotectin
-- Ongoing dyspnea (shortness of breath)
-- Laboratory/investigation findings supporting the reaction:
-  - Rising eosinophil count (baseline 0.0 × 10⁹/L → peak 2.8 × 10⁹/L)
-  - Rising creatinine (baseline 73 µmol/L → peak 302 µmol/L), with microalbuminuria and microscopic hematuria
-  - Normal liver function tests throughout (notably *no* hepatic involvement, atypical for DRESS)
-  - Raised inflammatory markers, neutrophilia, lymphocytosis
-  - CT chest: ground-glass nodules and peribronchial thickening suggestive of pneumonitis
-  - Skin biopsy: spongiosis, exocytosis, mixed lymphocyte/eosinophil/neutrophil infiltrate — consistent with a drug reaction
-  - HLA-A\*32:01: **positive**
+## Medication History
 
-## 3. Medication History
+Looking at everything she was given during her admission, she started on intravenous vancomycin on day zero for her cellulitis and septic arthritis, and this continued until around day twenty eight when it was stopped and she was switched to clindamycin instead. On day seventeen, moxifloxacin was added because she was thought to have developed pneumonia while in hospital. On day twenty one she was started on oral prednisolone for a flare up of her asthma, and around this time she also tested positive for a virus called metapneumovirus. Once the reaction was confirmed to be drug related, her prednisolone dose was increased around day thirty four to thirty seven, and increased again on day fifty after her symptoms returned. She was also given co trimoxazole for a short period as a preventive antibiotic while she was on high doses of steroids, but this was later swapped for atovaquone. Finally, on day fifty, she was started on a medicine called cyclosporine because her reaction kept coming back even with steroids.
 
-| Medication | Start Day | Stop Day | Indication |
-|---|---|---|---|
-| Vancomycin (IV) | Day 0 | Day 28 (stopped when rash worsened) | Cellulitis / septic arthritis (MRSA, Group C Streptococcus) |
-| Moxifloxacin | Day 17 | — | Suspected hospital-acquired pneumonia |
-| Prednisolone (oral) | Day 21 | Ongoing, dose adjusted (increased Day 34–37, again Day 50) | Asthma exacerbation; later, treatment of DRESS itself |
-| Clindamycin | Day 28 | — | Replacement antibiotic for septic arthritis after vancomycin stopped |
-| Co-trimoxazole | ~Day 34–37 | Day 50 (stopped) | PJP prophylaxis while on high-dose steroids |
-| Atovaquone | Day 50 | — | PJP prophylaxis (replaced co-trimoxazole) |
-| Cyclosporine | Day 50 | — | Second-line agent for steroid-dependent DRESS relapse |
+## Clinical Timeline
 
-## 4. Clinical Timeline
+Putting this all together in order, she was admitted on day zero and started on vancomycin. Moxifloxacin was added on day seventeen for pneumonia. Prednisolone was started on day twenty one for her asthma. On day twenty seven she developed the widespread rash and fever, and at this point the doctors first thought it was more likely due to the moxifloxacin since it had been started more recently. Vancomycin was stopped on day twenty eight. Between days thirty four and thirty seven her blood results were at their worst and she also developed diarrhoea, and this is when a skin biopsy and genetic testing were carried out. By day forty one her chest scan and biopsy results were back and she was already improving. On day forty nine the genetic test result came back positive, confirming a strong link to vancomycin. Then on day fifty her rash and blood results flared up again while her steroid dose was being reduced, so her steroid dose was increased once more and she was started on cyclosporine.
 
-| Day | Event |
-|---|---|
-| 0 | Admitted; IV vancomycin started for cellulitis and septic arthritis |
-| 17 | Moxifloxacin added for suspected hospital-acquired pneumonia |
-| 21 | Oral prednisolone started for an asthma flare; patient tested positive for metapneumovirus |
-| 27 | Widespread itchy morbilliform rash and fever developed; dermatology's first impression was a moxifloxacin reaction, DRESS thought less likely |
-| 28 | Vancomycin **stopped**; switched to clindamycin |
-| 34–37 | Peak eosinophil count and creatinine; new diarrhea; skin biopsy and HLA typing performed; prednisolone dose increased |
-| 41 | CT chest showed pneumonitis; biopsy findings consistent with a drug reaction; clinical improvement began |
-| 49 | HLA-A\*32:01 test returned **positive** — a marker specifically linked to vancomycin-induced DRESS |
-| 50 | Rash and eosinophilia **relapsed** during steroid tapering; steroid dose raised again and cyclosporine (a second-line agent) started |
+When I look at this timeline, I believe vancomycin is the drug responsible for the reaction rather than the other medicines she was on. The timing fits much better with vancomycin than with moxifloxacin. This kind of reaction usually takes around two to eight weeks to develop after starting a new drug, and her rash appeared twenty seven days after starting vancomycin, which fits well within that window. Moxifloxacin, on the other hand, had only been given for about ten days when the rash appeared, which is quite short for this kind of reaction, even though it was the first drug the doctors suspected simply because it had been started more recently.
 
-### Why the timeline points to vancomycin, not the other concomitant drugs
+Another reason I believe it was vancomycin is that her symptoms only started improving after vancomycin was stopped, even though she was continued on clindamycin for the same infection without any issues, showing that it was specifically vancomycin causing the problem and not just any antibiotic. Prednisolone was already being used to treat her asthma before the reaction became severe, and steroids are used to calm down this kind of reaction rather than cause it, so it does not make sense as the trigger. Co trimoxazole was only started after the rash had already begun, so it cannot explain why the reaction started in the first place, although the doctors did wonder if it played a role in the flare up that happened later on.
 
-- **Latency fits vancomycin, not moxifloxacin:** DRESS typically has a 2–8 week latency period. The rash appeared on day 27 — 27 days after vancomycin was started, squarely inside that window. Moxifloxacin had only been given for ~10 days at that point, which is short for a DRESS-type reaction, even though dermatology's *first* impression (based on recency alone) was a moxifloxacin exanthem.
-- **Positive dechallenge with vancomycin:** Symptoms and inflammatory/eosinophil markers began improving only after vancomycin was withdrawn on day 28 (alongside steroids) — clindamycin was substituted for the same infection without recurrence of the rash, showing the antibiotic *class switch away from vancomycin* was tolerated.
-- **Prednisolone and co-trimoxazole as unlikely culprits:** Prednisolone is a treatment for allergic/inflammatory reactions, not a typical trigger of them, and was already on board before the worst of the reaction — if anything it would be expected to dampen a reaction, not cause one. Co-trimoxazole was only introduced around day 34–37, after the rash had already begun (day 27), so it cannot explain the *onset* of the reaction, though the paper notes it as a possible (unconfirmed) contributor to the later relapse.
-- **Genetic evidence is vancomycin-specific:** The positive HLA-A\*32:01 result is a pharmacogenetic marker with a specific, well-documented association to vancomycin-induced DRESS — not to moxifloxacin, prednisolone, or co-trimoxazole.
-- **Alternative (non-drug) causes excluded:** Infectious workup (including herpesviruses) and autoimmune/vasculitis workup were negative; rheumatology considered and ruled out eosinophilic granulomatosis with polyangiitis (EGPA).
+The genetic test also supports vancomycin specifically, since the marker she tested positive for is known to be associated with vancomycin reactions and not with the other drugs she was given. Finally, the doctors also ruled out infections and autoimmune causes through various tests, so there was no real alternative explanation left besides a drug reaction.
 
-## 5. Causality Assessment
+## Causality Assessment
 
-### WHO-UMC Causality Scale
+To assess how likely it is that vancomycin caused this reaction, I used two standard tools, the WHO Uppsala Monitoring Centre scale and the Naranjo scale.
 
-The WHO-UMC scale categorizes reactions as Certain, Probable/Likely, Possible, Unlikely, Conditional, or Unassessable.
+Starting with the WHO UMC scale, this tool looks at whether the timing of the reaction makes sense, whether the reaction can be explained by anything else, whether the patient got better after stopping the drug, and whether the reaction came back if the drug was given again. In this case the timing made sense, there was no other reasonable explanation once infections and autoimmune causes were ruled out, and she did get better after stopping vancomycin. However, she was never given vancomycin again to see if the reaction would return, since doing that could have been dangerous for her. Because this rechallenge was never done, the WHO UMC scale does not allow this case to be called certain, even though everything else points strongly toward vancomycin. Based on this, the case fits best under the probable category on this scale.
 
-| WHO-UMC criterion | Met? |
-|---|---|
-| Reasonable time relationship to drug administration | ✅ Yes (~27 days, within DRESS latency) |
-| Reaction cannot be reasonably explained by disease or other drugs | ✅ Yes (infectious/autoimmune causes excluded; other drugs poorly fit the timeline) |
-| Response to withdrawal (dechallenge) clinically reasonable | ✅ Yes (improved after stopping vancomycin + steroids) |
-| Rechallenge satisfactory, if necessary | ❌ **Not performed** |
+I also worked through the Naranjo scale, which asks a series of questions and gives points depending on the answer. Reactions like this have been reported before with vancomycin, which adds a point. The reaction did appear after the drug was started, which adds more points. She did improve when the drug was stopped, which adds another point. However, since she was never given vancomycin again, no points can be added or taken away for that particular question. There was no other likely cause for her symptoms once other possibilities were ruled out, which adds further points. There was no placebo given, no blood test was done to measure vancomycin levels at the time, and there was nothing to suggest the reaction changed with dose adjustments, so these questions add nothing either way. She had tolerated vancomycin without any issues on a previous occasion, so this does not add or subtract anything either, since it was not a straightforward repeat reaction. Finally, there was objective proof supporting the drug reaction in the form of the biopsy, the genetic test and the abnormal eosinophil count, adding one final point. Adding all of this together comes to a score of seven, and according to the Naranjo scale this score falls into the probable category rather than the definite category, since a definite result requires a positive rechallenge, which never happened here.
 
-Under WHO-UMC, "**Certain**" specifically requires a *plausible rechallenge* — reintroducing the drug and seeing the reaction recur. Since **no rechallenge was carried out** in this case (understandably, given how severe the reaction was), the case cannot be labelled "Certain" no matter how strong the other evidence is. With a reasonable time relationship, exclusion of other causes, and a positive dechallenge, but no rechallenge, this case fits the WHO-UMC category of **"Probable/Likely."**
+Both tools end up in the same place for the same reason. The only thing stopping this case from being labelled as certain or definite is the fact that a rechallenge was never carried out. If vancomycin had been given again on purpose and the reaction had come back, this would have been enough to call it certain or definite. Since that was never attempted, and quite reasonably so given how unwell she became, the case cannot go beyond probable on these two scales, even though there is no other explanation left for her symptoms. It is worth mentioning that the original case report used a different scoring method called RegiSCAR, which is specifically designed for this type of reaction, and using that method the authors classified the case as definite, since that particular tool does not require a rechallenge to reach its highest category. This is simply a difference between tools rather than a contradiction, and does not change the overall picture that vancomycin is very likely the cause.
 
-### Naranjo Adverse Drug Reaction Probability Scale
+## Suspected Drug
 
-| # | Question | Answer | Score |
-|---|---|---|---|
-| 1 | Are there previous conclusive reports on this reaction? | Yes | +1 |
-| 2 | Did the adverse event appear after the suspected drug was given? | Yes | +2 |
-| 3 | Did the reaction improve when the drug was discontinued or a specific antagonist given? | Yes | +1 |
-| 4 | Did the reaction reappear when the drug was re-administered? | **Not done (no rechallenge)** | 0 |
-| 5 | Are there alternative causes that could have caused the reaction on their own? | No reasonable alternative found | +2 |
-| 6 | Did the reaction reappear when a placebo was given? | Not done | 0 |
-| 7 | Was the drug detected in blood/body fluids in toxic concentration? | Not reported | 0 |
-| 8 | Was the reaction more severe when the dose was increased, or less severe when decreased? | Not clearly assessed | 0 |
-| 9 | Did the patient have a similar reaction to the same or similar drug in a previous exposure? | No (prior 1-week course was tolerated) | 0 |
-| 10 | Was the adverse event confirmed by objective evidence? | Yes (HLA-A\*32:01, biopsy, eosinophilia) | +1 |
-
-**Total Naranjo score: 7 → "Probable" category** (Probable = 5–8; Definite = ≥9, which requires a positive rechallenge — question 4 — to reach)
-
-### Why "Probable," not "Definite"
-
-Both WHO-UMC and Naranjo converge on **Probable**, not Definite/Certain, for the same reason: **no rechallenge was performed.** A rechallenge (re-exposing the patient to vancomycin and observing whether the reaction recurs) is the one piece of evidence that would upgrade the causality rating to "Certain" (WHO-UMC) or "Definite" (Naranjo, where a positive rechallenge is required to score ≥9). Since there was **no alternative cause identified** (infectious and autoimmune causes were actively excluded) and every other criterion is satisfied, the case sits at the ceiling of what's achievable without a rechallenge — i.e., **Probable.**
-
-*(Note: the original case report itself used a different, DRESS-specific tool — the RegiSCAR score — and reported a score of 7, which that tool's own scale labels "Definite." RegiSCAR does not require a rechallenge to reach its top category, which is why its conclusion differs from the general-purpose WHO-UMC/Naranjo assessment above.)*
-
-## 6. Suspected Drug
-
-**Vancomycin**
-
----
-*Prepared as part of Task 1 — ADR Identification Basics, using a real, publicly available case report as the source scenario.*
+Based on all of the above, the suspected drug responsible for this reaction is vancomycin.
